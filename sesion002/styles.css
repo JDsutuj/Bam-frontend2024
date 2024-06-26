@@ -1,0 +1,29 @@
+* {
+    /* color : red; */
+}
+/* Elemento */
+button{
+    /* background-color: blue; */
+}
+/* ID*/
+#logo{
+    height: 45px;
+}
+
+/* Clases */
+.etiqueta{
+    background-color: green;
+    font-size: 15px;
+    padding: 20px;
+    margin: -3px;
+}
+input{
+    margin-right: 10%;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header > *{
+display: inline;
+}
