@@ -1,0 +1,124 @@
+body {
+    background-color: #FFFBF7;
+  }
+  
+  .contenedor {
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-rows: 35% 31%;
+  }
+  
+  .up-block {
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: #96D178;
+  }
+  .up-block h1 {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+    font-size: 3rem;
+    color: #025157;
+  }
+  .up-block input {
+    grid-row: 3;
+    grid-column: 2;
+    width: 23%;
+    position: relative;
+    left: 30%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    border-radius: 4px;
+    border: none;
+  }
+  .up-block button {
+    width: 20%;
+    position: relative;
+    left: 55%;
+    grid-row: 3;
+    grid-column: 2;
+    border-radius: 4px;
+    border: none;
+    background-color: #025157;
+    color: #FFFBF7;
+  }
+  .up-block h5 {
+    grid-row: 4;
+    grid-column: 2;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #FFFBF7;
+  }
+  .up-block p {
+    grid-row: 5;
+    grid-column: 2;
+    text-align: center;
+    margin: 0%;
+    font-size: 0.8rem;
+    color: #FFFBF7;
+  }
+  .up-block p span {
+    font-weight: bolder;
+  }
+  
+  .down-block {
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem 6rem;
+    background-color: #025157;
+    border-radius: 10px;
+    flex-wrap: wrap;
+  }
+  .down-block .info {
+    width: 30%;
+    align-self: center;
+  }
+  .down-block .info h2 {
+    font-size: 2rem;
+    margin-bottom: 0.9rem;
+    color: #FFFBF7;
+  }
+  .down-block .info p {
+    font-size: 1rem;
+    color: #FFFBF7;
+  }
+  .down-block .info p span {
+    color: #96D178;
+  }
+  .down-block .correo {
+    align-self: center;
+  }
+  .down-block .correo input {
+    width: 50%;
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    margin-bottom: 3%;
+  }
+  .down-block .correo button {
+    width: 39%;
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    left: -2%;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    background-color: #96D178;
+    color: #FFFBF7;
+  }
+  .down-block .correo p {
+    color: #FFFBF7;
+    margin: 1%;
+    font-size: 10px;
+    font-weight: lighter;
+  }/*# sourceMappingURL=style.css.map */
+  

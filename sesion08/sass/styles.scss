@@ -1,0 +1,136 @@
+@import "variables";
+
+
+body{
+    background-color: $background_color;
+}
+.contenedor{
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-rows: 35% 31%;
+}
+
+.up-block{
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: $color_primario;
+   
+
+    h1{
+        grid-row: 2;
+        grid-column: 2;
+        text-align: center;
+        font-size: 3rem;
+        color: $color_secundario;
+    }
+
+    input{
+        grid-row: 3;
+        grid-column: 2;
+        width: 23%;
+        position: relative;
+        left: 30%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        border-radius: 4px;
+        border: none;
+    }
+
+    button{
+        width: 20%;
+        position: relative;
+        left: 55%;
+        grid-row: 3;
+        grid-column: 2;
+        border-radius: 4px;
+        border: none;
+        background-color: $color_secundario;
+        color: $background_color;
+    }
+
+    h5{
+        grid-row: 4;
+        grid-column: 2;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        font-size: 0.8rem;
+        font-weight: 100;
+        color: $background_color;
+    }
+
+    p{
+        grid-row: 5;
+        grid-column: 2;
+        text-align: center;
+        margin: 0%;
+        font-size: 0.8rem;
+        color: $background_color;
+        span{
+            font-weight: bolder;    
+        }
+    }
+}
+
+.down-block{
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem 6rem;
+    background-color: $color_secundario;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+    .info{
+        width: 30%;
+        align-self: center;
+        h2{
+            font-size: 2rem;
+            margin-bottom: 0.9rem;
+            color: $background_color;
+        }
+        p{
+            font-size: 1rem;
+            color: $background_color;
+
+            span{
+                color: $color_primario;
+            }
+        }
+    }
+    .correo{
+        align-self: center;
+
+        input{
+            width: 50%;
+            position: relative;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 15px;
+            border-radius: 4px 0px 0px 4px;
+            border: none;
+            margin-bottom: 3%;
+        }
+        button{
+            width: 39%;
+            position: relative;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 15px;
+            left: -2%;
+            border-radius: 0px 4px 4px 0px;
+            border: none;
+            background-color: $color_primario;
+            color: $background_color;
+        }
+
+        p{
+            color: $background_color;
+            margin: 1%;
+            font-size: 10px;
+            font-weight: lighter;
+        }
+    }
+
+}
