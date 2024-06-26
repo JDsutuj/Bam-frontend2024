@@ -1,0 +1,78 @@
+.container{
+    height: 600px;
+    width: 1000px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.card{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    margin: 2%;
+}
+
+h1{
+    margin: 50px;
+    background-color: black;
+    color: white;
+}
+.card1{
+    grid-column:2 / 3;
+    grid-row: 2 / 3;
+
+}
+
+
+.caja1{
+    height: 600px;
+    width: 1000px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.cards{
+    height: 75%;
+    width: 75%;
+    background-color: white;
+    margin: 25px;
+}
+
+
+.caja2{
+    height: 600px;
+    width: 1000px;
+    background-color: rgb(204, 0, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.cardss{
+    height: 75%;
+    width: 330px;
+    background-color: white;
+    margin: 25px;
+}
+
+.caja3{
+    height: 600px;
+    width: 1000px;
+    background-color: rgb(9, 255, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.cardsss{
+    height: 250px;
+    width: 75%;
+    background-color: white;
+    margin: 25px;
+}
+
+
